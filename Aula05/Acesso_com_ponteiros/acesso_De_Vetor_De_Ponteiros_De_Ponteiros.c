@@ -16,10 +16,12 @@ int main(void) {
 
         //printf("valor de *p na posição i: %p\n", *(p+i));
 
-        int vet_size = sizeof((p+i)[]) / sizeof(int);
+        int vet_size = sizeof((p+i)[i]) / sizeof(int);
         
         for(int j = 0; j < vet_size; j++) printf("%5d", *(*(p+i)+j));
     }
+
+    printf("\n");
 
     return 0;
 }

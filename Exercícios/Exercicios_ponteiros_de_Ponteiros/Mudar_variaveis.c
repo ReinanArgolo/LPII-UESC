@@ -12,9 +12,12 @@ int main(void) {
     int a = 10;
     int *pa = &a;
     printf("Valor original: %d\n", *pa);
+    printf("Valor original: %p\n", pa);
+
     
     trocaraiavel(&pa);
     
     printf("Valor modificado: %d\n", *pa);
+    printf("Valor original: %p\n", pa);
     return 0;
 }

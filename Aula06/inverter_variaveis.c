@@ -11,9 +11,6 @@ void func_aux(int** a, int** b){
 
     torcar_valores(a,b);
 
-    printf("%p, %p\n", *a, *b);
-
-    printf("a: %d, b: %d", **a, **b);
 }
 
 int main(void) {
@@ -25,10 +22,10 @@ int main(void) {
     printf("ANTES\n");
     printf("%d, %d\n", a, b);
 
-    func_aux(ptr1, ptr2);
+    func_aux(&ptr1, &ptr2);
 
     printf("DEPOIS\n");
-    printf("%d, %d", a, b);
+    printf("%d, %d\n", a, b);
 
 
 }

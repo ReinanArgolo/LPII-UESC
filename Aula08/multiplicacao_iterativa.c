@@ -1,4 +1,4 @@
-#include "include/somaRec.h"
+#include "somaRec.h"
 #include <stdio.h>
 
 int multi_int(int a, int b) {

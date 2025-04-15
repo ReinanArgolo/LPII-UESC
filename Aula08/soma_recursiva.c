@@ -2,8 +2,7 @@
 //a) SomaI, função iterativa que retorna A + B;
 
 
-#include <stdio.h>
-#include "include/somaRec.h"
+#include "somaRec.h"
 
 int somaR(int a, int b) {
     if(a == 0) return 1;

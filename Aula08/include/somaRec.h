@@ -1,6 +1,6 @@
-#ifndef SOMA_RECURSIVA_H
-#define SOMA_RECURSIVA_H
+#ifndef SOMAREC_H
+#define SOMAREC_H
 
-int somaR(int a, int b);
+int somaR(int a, int b);  // Declaração da função recursiva
 
 #endif

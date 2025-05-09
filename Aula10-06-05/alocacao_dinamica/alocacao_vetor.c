@@ -9,12 +9,12 @@ int main(void) {
 
     int* ptr = (void*) malloc(n * sizeof(int));
 
-    for(int i = 0; i < n; i++) scanf(" %d", (ptr+i));
+    for(int i = 0; i < n; i++) scanf("%d", &ptr[i]);
 
-    for(int i = 0; i < n; i++) printf(" %d", *(ptr+i));
+    for(int i = 0; i < n; i++) printf(" %d", ptr[i]);
     printf("\n");
 
-    free(ptr);
+    // free(ptr);
 
-    return 0;
+    return 0; 
 }
